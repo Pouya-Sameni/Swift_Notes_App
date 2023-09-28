@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */; };
-		92E8C27A2AC4FCE400138C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2792AC4FCE400138C52 /* ContentView.swift */; };
+		92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2792AC4FCE400138C52 /* HomeView.swift */; };
 		92E8C27C2AC4FCE500138C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27B2AC4FCE500138C52 /* Assets.xcassets */; };
 		92E8C27F2AC4FCE500138C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27E2AC4FCE500138C52 /* Preview Assets.xcassets */; };
 		92E8C2892AC4FCE500138C52 /* pouya_note_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2882AC4FCE500138C52 /* pouya_note_appTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		92E8C2742AC4FCE400138C52 /* pouya-note-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pouya-note-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appApp.swift; sourceTree = "<group>"; };
-		92E8C2792AC4FCE400138C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92E8C2792AC4FCE400138C52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		92E8C27B2AC4FCE500138C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E8C27E2AC4FCE500138C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92E8C2842AC4FCE500138C52 /* pouya-note-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pouya-note-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */,
-				92E8C2792AC4FCE400138C52 /* ContentView.swift */,
+				92E8C2792AC4FCE400138C52 /* HomeView.swift */,
 				92E8C27B2AC4FCE500138C52 /* Assets.xcassets */,
 				92E8C27D2AC4FCE500138C52 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E8C27A2AC4FCE400138C52 /* ContentView.swift in Sources */,
+				92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */,
 				92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
