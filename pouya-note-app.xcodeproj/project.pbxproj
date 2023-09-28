@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */; };
+		92E8C27A2AC4FCE400138C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2792AC4FCE400138C52 /* ContentView.swift */; };
+		92E8C27C2AC4FCE500138C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27B2AC4FCE500138C52 /* Assets.xcassets */; };
+		92E8C27F2AC4FCE500138C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27E2AC4FCE500138C52 /* Preview Assets.xcassets */; };
+		92E8C2892AC4FCE500138C52 /* pouya_note_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2882AC4FCE500138C52 /* pouya_note_appTests.swift */; };
+		92E8C2932AC4FCE500138C52 /* pouya_note_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2922AC4FCE500138C52 /* pouya_note_appUITests.swift */; };
+		92E8C2952AC4FCE500138C52 /* pouya_note_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2942AC4FCE500138C52 /* pouya_note_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E8C2852AC4FCE500138C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E8C26C2AC4FCE400138C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E8C2732AC4FCE400138C52;
+			remoteInfo = "pouya-note-app";
+		};
+		92E8C28F2AC4FCE500138C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E8C26C2AC4FCE400138C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E8C2732AC4FCE400138C52;
+			remoteInfo = "pouya-note-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92E8C2742AC4FCE400138C52 /* pouya-note-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pouya-note-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appApp.swift; sourceTree = "<group>"; };
+		92E8C2792AC4FCE400138C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92E8C27B2AC4FCE500138C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E8C27E2AC4FCE500138C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92E8C2842AC4FCE500138C52 /* pouya-note-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pouya-note-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E8C2882AC4FCE500138C52 /* pouya_note_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appTests.swift; sourceTree = "<group>"; };
+		92E8C28E2AC4FCE500138C52 /* pouya-note-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pouya-note-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E8C2922AC4FCE500138C52 /* pouya_note_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appUITests.swift; sourceTree = "<group>"; };
+		92E8C2942AC4FCE500138C52 /* pouya_note_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92E8C2712AC4FCE400138C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C2812AC4FCE500138C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C28B2AC4FCE500138C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92E8C26B2AC4FCE400138C52 = {
+			isa = PBXGroup;
+			children = (
+				92E8C2762AC4FCE400138C52 /* pouya-note-app */,
+				92E8C2872AC4FCE500138C52 /* pouya-note-appTests */,
+				92E8C2912AC4FCE500138C52 /* pouya-note-appUITests */,
+				92E8C2752AC4FCE400138C52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92E8C2752AC4FCE400138C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2742AC4FCE400138C52 /* pouya-note-app.app */,
+				92E8C2842AC4FCE500138C52 /* pouya-note-appTests.xctest */,
+				92E8C28E2AC4FCE500138C52 /* pouya-note-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92E8C2762AC4FCE400138C52 /* pouya-note-app */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */,
+				92E8C2792AC4FCE400138C52 /* ContentView.swift */,
+				92E8C27B2AC4FCE500138C52 /* Assets.xcassets */,
+				92E8C27D2AC4FCE500138C52 /* Preview Content */,
+			);
+			path = "pouya-note-app";
+			sourceTree = "<group>";
+		};
+		92E8C27D2AC4FCE500138C52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C27E2AC4FCE500138C52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92E8C2872AC4FCE500138C52 /* pouya-note-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2882AC4FCE500138C52 /* pouya_note_appTests.swift */,
+			);
+			path = "pouya-note-appTests";
+			sourceTree = "<group>";
+		};
+		92E8C2912AC4FCE500138C52 /* pouya-note-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2922AC4FCE500138C52 /* pouya_note_appUITests.swift */,
+				92E8C2942AC4FCE500138C52 /* pouya_note_appUITestsLaunchTests.swift */,
+			);
+			path = "pouya-note-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92E8C2732AC4FCE400138C52 /* pouya-note-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E8C2982AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-app" */;
+			buildPhases = (
+				92E8C2702AC4FCE400138C52 /* Sources */,
+				92E8C2712AC4FCE400138C52 /* Frameworks */,
+				92E8C2722AC4FCE400138C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pouya-note-app";
+			productName = "pouya-note-app";
+			productReference = 92E8C2742AC4FCE400138C52 /* pouya-note-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92E8C2832AC4FCE500138C52 /* pouya-note-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E8C29B2AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-appTests" */;
+			buildPhases = (
+				92E8C2802AC4FCE500138C52 /* Sources */,
+				92E8C2812AC4FCE500138C52 /* Frameworks */,
+				92E8C2822AC4FCE500138C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E8C2862AC4FCE500138C52 /* PBXTargetDependency */,
+			);
+			name = "pouya-note-appTests";
+			productName = "pouya-note-appTests";
+			productReference = 92E8C2842AC4FCE500138C52 /* pouya-note-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92E8C28D2AC4FCE500138C52 /* pouya-note-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E8C29E2AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-appUITests" */;
+			buildPhases = (
+				92E8C28A2AC4FCE500138C52 /* Sources */,
+				92E8C28B2AC4FCE500138C52 /* Frameworks */,
+				92E8C28C2AC4FCE500138C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E8C2902AC4FCE500138C52 /* PBXTargetDependency */,
+			);
+			name = "pouya-note-appUITests";
+			productName = "pouya-note-appUITests";
+			productReference = 92E8C28E2AC4FCE500138C52 /* pouya-note-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92E8C26C2AC4FCE400138C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					92E8C2732AC4FCE400138C52 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					92E8C2832AC4FCE500138C52 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 92E8C2732AC4FCE400138C52;
+					};
+					92E8C28D2AC4FCE500138C52 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 92E8C2732AC4FCE400138C52;
+					};
+				};
+			};
+			buildConfigurationList = 92E8C26F2AC4FCE400138C52 /* Build configuration list for PBXProject "pouya-note-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92E8C26B2AC4FCE400138C52;
+			productRefGroup = 92E8C2752AC4FCE400138C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92E8C2732AC4FCE400138C52 /* pouya-note-app */,
+				92E8C2832AC4FCE500138C52 /* pouya-note-appTests */,
+				92E8C28D2AC4FCE500138C52 /* pouya-note-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92E8C2722AC4FCE400138C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8C27F2AC4FCE500138C52 /* Preview Assets.xcassets in Resources */,
+				92E8C27C2AC4FCE500138C52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C2822AC4FCE500138C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C28C2AC4FCE500138C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E8C2702AC4FCE400138C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8C27A2AC4FCE400138C52 /* ContentView.swift in Sources */,
+				92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C2802AC4FCE500138C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8C2892AC4FCE500138C52 /* pouya_note_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E8C28A2AC4FCE500138C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8C2932AC4FCE500138C52 /* pouya_note_appUITests.swift in Sources */,
+				92E8C2952AC4FCE500138C52 /* pouya_note_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92E8C2862AC4FCE500138C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E8C2732AC4FCE400138C52 /* pouya-note-app */;
+			targetProxy = 92E8C2852AC4FCE500138C52 /* PBXContainerItemProxy */;
+		};
+		92E8C2902AC4FCE500138C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E8C2732AC4FCE400138C52 /* pouya-note-app */;
+			targetProxy = 92E8C28F2AC4FCE500138C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92E8C2962AC4FCE500138C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92E8C2972AC4FCE500138C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E8C2992AC4FCE500138C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pouya-note-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92E8C29A2AC4FCE500138C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pouya-note-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92E8C29C2AC4FCE500138C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pouya-note-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pouya-note-app";
+			};
+			name = Debug;
+		};
+		92E8C29D2AC4FCE500138C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pouya-note-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pouya-note-app";
+			};
+			name = Release;
+		};
+		92E8C29F2AC4FCE500138C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pouya-note-app";
+			};
+			name = Debug;
+		};
+		92E8C2A02AC4FCE500138C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pouyasameni.pouya-note-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pouya-note-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92E8C26F2AC4FCE400138C52 /* Build configuration list for PBXProject "pouya-note-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E8C2962AC4FCE500138C52 /* Debug */,
+				92E8C2972AC4FCE500138C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E8C2982AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E8C2992AC4FCE500138C52 /* Debug */,
+				92E8C29A2AC4FCE500138C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E8C29B2AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E8C29C2AC4FCE500138C52 /* Debug */,
+				92E8C29D2AC4FCE500138C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E8C29E2AC4FCE500138C52 /* Build configuration list for PBXNativeTarget "pouya-note-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E8C29F2AC4FCE500138C52 /* Debug */,
+				92E8C2A02AC4FCE500138C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92E8C26C2AC4FCE400138C52 /* Project object */;
+}
