@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920EC62A2ACA70B1009F34D7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920EC6292ACA70B1009F34D7 /* Note.swift */; };
+		9253D1A72AC673AF00EA71F5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253D1A62AC673AF00EA71F5 /* HomeViewModel.swift */; };
+		9253D1A92AC673C900EA71F5 /* NoteEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253D1A82AC673C900EA71F5 /* NoteEntryViewModel.swift */; };
+		9253D1AB2AC673D700EA71F5 /* NewNoteWindowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253D1AA2AC673D700EA71F5 /* NewNoteWindowViewModel.swift */; };
+		9253D1AD2AC6758A00EA71F5 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253D1AC2AC6758A00EA71F5 /* AppHeaderView.swift */; };
+		9253D1AF2AC677DE00EA71F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9253D1AE2AC677DE00EA71F5 /* MainView.swift */; };
+		92BACBE92AC64A2700E0155D /* NoteWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BACBE82AC64A2700E0155D /* NoteWindowView.swift */; };
+		92BACBEF2AC672D900E0155D /* NoteEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BACBEE2AC672D900E0155D /* NoteEntryView.swift */; };
 		92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */; };
 		92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2792AC4FCE400138C52 /* HomeView.swift */; };
 		92E8C27C2AC4FCE500138C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27B2AC4FCE500138C52 /* Assets.xcassets */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920EC6292ACA70B1009F34D7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		9253D1A62AC673AF00EA71F5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9253D1A82AC673C900EA71F5 /* NoteEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntryViewModel.swift; sourceTree = "<group>"; };
+		9253D1AA2AC673D700EA71F5 /* NewNoteWindowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteWindowViewModel.swift; sourceTree = "<group>"; };
+		9253D1AC2AC6758A00EA71F5 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
+		9253D1AE2AC677DE00EA71F5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		92BACBE82AC64A2700E0155D /* NoteWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWindowView.swift; sourceTree = "<group>"; };
+		92BACBEE2AC672D900E0155D /* NoteEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntryView.swift; sourceTree = "<group>"; };
 		92E8C2742AC4FCE400138C52 /* pouya-note-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pouya-note-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appApp.swift; sourceTree = "<group>"; };
 		92E8C2792AC4FCE400138C52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -71,6 +87,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920EC6282ACA70A0009F34D7 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				920EC6292ACA70B1009F34D7 /* Note.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		9253D1A52AC6739A00EA71F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9253D1A62AC673AF00EA71F5 /* HomeViewModel.swift */,
+				9253D1A82AC673C900EA71F5 /* NoteEntryViewModel.swift */,
+				9253D1AA2AC673D700EA71F5 /* NewNoteWindowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		92BACBEA2AC6724200E0155D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2792AC4FCE400138C52 /* HomeView.swift */,
+				92BACBE82AC64A2700E0155D /* NoteWindowView.swift */,
+				92BACBEE2AC672D900E0155D /* NoteEntryView.swift */,
+				9253D1AC2AC6758A00EA71F5 /* AppHeaderView.swift */,
+				9253D1AE2AC677DE00EA71F5 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92BACBEB2AC6724F00E0155D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */,
+				92E8C27B2AC4FCE500138C52 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		92E8C26B2AC4FCE400138C52 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +149,11 @@
 		92E8C2762AC4FCE400138C52 /* pouya-note-app */ = {
 			isa = PBXGroup;
 			children = (
-				92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */,
-				92E8C2792AC4FCE400138C52 /* HomeView.swift */,
-				92E8C27B2AC4FCE500138C52 /* Assets.xcassets */,
+				920EC6282ACA70A0009F34D7 /* DTO */,
+				92BACBEB2AC6724F00E0155D /* Other */,
 				92E8C27D2AC4FCE500138C52 /* Preview Content */,
+				9253D1A52AC6739A00EA71F5 /* ViewModels */,
+				92BACBEA2AC6724200E0155D /* Views */,
 			);
 			path = "pouya-note-app";
 			sourceTree = "<group>";
@@ -258,7 +314,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */,
+				9253D1AF2AC677DE00EA71F5 /* MainView.swift in Sources */,
+				92BACBEF2AC672D900E0155D /* NoteEntryView.swift in Sources */,
+				9253D1AB2AC673D700EA71F5 /* NewNoteWindowViewModel.swift in Sources */,
+				9253D1AD2AC6758A00EA71F5 /* AppHeaderView.swift in Sources */,
+				920EC62A2ACA70B1009F34D7 /* Note.swift in Sources */,
 				92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */,
+				9253D1A92AC673C900EA71F5 /* NoteEntryViewModel.swift in Sources */,
+				9253D1A72AC673AF00EA71F5 /* HomeViewModel.swift in Sources */,
+				92BACBE92AC64A2700E0155D /* NoteWindowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +491,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +519,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

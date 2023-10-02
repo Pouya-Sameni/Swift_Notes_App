@@ -11,7 +11,7 @@ import SwiftUI
 struct pouya_note_appApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            MainView()
         }
     }
 }
