@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9221F4DB2ACE3C15001635B1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9221F4DA2ACE3C15001635B1 /* HeaderView.swift */; };
+		9221F4DE2ACE3CF7001635B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9221F4DD2ACE3CF7001635B1 /* MainView.swift */; };
+		9221F4E02ACE3D56001635B1 /* NoteEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9221F4DF2ACE3D56001635B1 /* NoteEntryView.swift */; };
+		9221F4E22ACE3DBB001635B1 /* NoteEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9221F4E12ACE3DBB001635B1 /* NoteEditView.swift */; };
+		9221F4E52ACE3EE3001635B1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9221F4E42ACE3EE3001635B1 /* Note.swift */; };
 		92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */; };
 		92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8C2792AC4FCE400138C52 /* HomeView.swift */; };
 		92E8C27C2AC4FCE500138C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E8C27B2AC4FCE500138C52 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9221F4DA2ACE3C15001635B1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9221F4DD2ACE3CF7001635B1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9221F4DF2ACE3D56001635B1 /* NoteEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntryView.swift; sourceTree = "<group>"; };
+		9221F4E12ACE3DBB001635B1 /* NoteEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditView.swift; sourceTree = "<group>"; };
+		9221F4E42ACE3EE3001635B1 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		92E8C2742AC4FCE400138C52 /* pouya-note-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pouya-note-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pouya_note_appApp.swift; sourceTree = "<group>"; };
 		92E8C2792AC4FCE400138C52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9221F4E32ACE3ED7001635B1 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				9221F4E42ACE3EE3001635B1 /* Note.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		92E8C26B2AC4FCE400138C52 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +112,15 @@
 		92E8C2762AC4FCE400138C52 /* pouya-note-app */ = {
 			isa = PBXGroup;
 			children = (
+				9221F4E32ACE3ED7001635B1 /* DTO */,
 				92E8C2772AC4FCE400138C52 /* pouya_note_appApp.swift */,
 				92E8C2792AC4FCE400138C52 /* HomeView.swift */,
 				92E8C27B2AC4FCE500138C52 /* Assets.xcassets */,
+				9221F4DA2ACE3C15001635B1 /* HeaderView.swift */,
 				92E8C27D2AC4FCE500138C52 /* Preview Content */,
+				9221F4DD2ACE3CF7001635B1 /* MainView.swift */,
+				9221F4DF2ACE3D56001635B1 /* NoteEntryView.swift */,
+				9221F4E12ACE3DBB001635B1 /* NoteEditView.swift */,
 			);
 			path = "pouya-note-app";
 			sourceTree = "<group>";
@@ -257,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9221F4E22ACE3DBB001635B1 /* NoteEditView.swift in Sources */,
 				92E8C27A2AC4FCE400138C52 /* HomeView.swift in Sources */,
+				9221F4E52ACE3EE3001635B1 /* Note.swift in Sources */,
+				9221F4E02ACE3D56001635B1 /* NoteEntryView.swift in Sources */,
+				9221F4DE2ACE3CF7001635B1 /* MainView.swift in Sources */,
+				9221F4DB2ACE3C15001635B1 /* HeaderView.swift in Sources */,
 				92E8C2782AC4FCE400138C52 /* pouya_note_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

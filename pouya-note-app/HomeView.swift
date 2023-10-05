@@ -8,63 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var allNotes: [Note] = []
     var body: some View {
-        VStack{
-            
-            HStack {
-                Text("Welcome To You Notes").font(.title2)
-                Spacer()
-                Image(systemName: "doc.badge.plus")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-            
-            }
-            .padding()
-            Divider()
-                .frame(width: 1000)
-                .overlay(.black)
-     
+        NavigationView{
+            VStack{
                 
- 
-            HStack{
-                VStack{
-                    Text("Title of Note").font(.largeTitle).multilineTextAlignment(.leading).padding(.trailing, 120.0)
-                    Text("This is the first sentence of the note to be").font(.subheadline).multilineTextAlignment(.leading)
-                }
-                Spacer()
-                Image(systemName: "pencil.line")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                    
-            }.padding()
-            HStack{
-                VStack{
-                    Text("Title of Note").font(.largeTitle).multilineTextAlignment(.leading).padding(.trailing, 120.0)
-                    Text("This is the first sentence of the note to be").font(.subheadline).multilineTextAlignment(.leading)
-                    
-                }
-                Spacer()
-                Image(systemName: "pencil.line")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-            }.padding()
-            HStack{
-                VStack{
-                    Text("Title of Note").font(.largeTitle).multilineTextAlignment(.leading).padding(.trailing, 120.0)
-                    Text("This is the first sentence of the note to be").font(.subheadline).multilineTextAlignment(.leading)
-                }
-                Spacer()
-                Image(systemName: "pencil.line")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-            }.padding()
-            Spacer()
-        }
+                HeaderView()
+                
+                List{
+                    ForEach (allNotes) {note in NoteEntryView(note: note)}
+                }.listStyle(PlainListStyle())
         
+                
+
+                Spacer()
+            }
+
+        }
         
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(allNotes: [Note( title: "Title 1", noteBody: "Body 1"), Note( title: "Title 2", noteBody: "Body 2"),Note( title: "Title 3", noteBody: "Body 3"), Note( title: "Title 4", noteBody: "Body 4"),
+                              Note( title: "Title 5", noteBody: "Body 5"), Note( title: "Title 6", noteBody: "Body 6"),
+                                 Note( title: "Title 7", noteBody: "Body 7"), Note( title: "Title 8", noteBody: "Body 8"),
+                                 Note( title: "Title 9", noteBody: "Body 9"), Note( title: "Title 99", noteBody: "Body 99")])
 }
